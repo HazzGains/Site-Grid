@@ -1,0 +1,84 @@
+// sass ./assets/scss/style.scss:./assets/css/style.css -w
+
+body {
+    //display: flex;
+    //flex-direction: column;
+    //align-items: center;
+    #tema {
+        position: fixed;
+        opacity: 0.5;
+        position: absolute;
+        z-index: -1;
+    
+        //width: 300px;
+        height: 300px;
+    }
+    width: 100%;
+    header {
+        // filter: blur(1px); input: hentai
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        p {  
+            margin-bottom: 20px;
+            font-weight: bold;
+        }      
+
+        #img {
+            max-width: 400px;
+            max-height: 400px;
+        }
+    }
+    main{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        #flex {
+
+            padding: 5px;
+          
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            background-color:#FFF;
+            background-size: 50%;
+            border: 1px solid black;
+            div {
+                box-sizing: border-box;
+                border: 1px solid #FFF;
+                
+                height: 40px;
+                width: 40px;
+                background: #bdbdbd;  
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              
+                font-size: 1.5rem; 
+                color:rgb(0, 0, 0);
+            }
+        }
+    }
+
+    footer {
+
+        #dica {
+            display: flex;
+            justify-content: center;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+    
+            #secret {
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+    }
+}

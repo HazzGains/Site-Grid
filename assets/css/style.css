@@ -1,0 +1,64 @@
+body {
+  width: 100%;
+}
+body #tema {
+  position: fixed;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
+  height: 300px;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body header p {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+body header #img {
+  max-width: 400px;
+  max-height: 400px;
+}
+body main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main #flex {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #FFF;
+  background-size: 50%;
+  border: 1px solid black;
+}
+body main #flex div {
+  box-sizing: border-box;
+  border: 1px solid #FFF;
+  height: 40px;
+  width: 40px;
+  background: #bdbdbd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+}
+body footer #dica {
+  display: flex;
+  justify-content: center;
+}
+body footer div {
+  display: flex;
+  justify-content: center;
+}
+body footer div #secret {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
